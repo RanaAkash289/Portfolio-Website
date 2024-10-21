@@ -298,7 +298,7 @@ function openMail() {
 function downloadCV() {
 
 	const link = document.createElement('a');
-	link.href = 'E:/ANGULAR PROJECT/AKASH-PORTFOLIO/Portfolio-Website/AKASH_RESUME_FIELD.pdf'; // Update with your actual resume file path
+	link.href = 'https://github.com/RanaAkash289/Portfolio-Website/blob/main/AKASH_RESUME_FIELD.pdf'; // Update with your actual resume file path
 	link.target = '_blank'; // Open in a new window/tab
 	link.download = 'Akash_Rana_Resume.pdf'; // Name of the file after download
 	link.click();
